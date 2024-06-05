@@ -1,21 +1,15 @@
-## Example on how to use Prometheus and Grafana to monitor a Flask API application
+## Не решенные задачи
 
-Example deployment of a Flask API using Prometheus and Grafana for metrics and monitoring. All tied together using docker-compose.
+2.3 Automatic Recovery and Scaling
+Надо больше времени, если нельзя пользоваться swarm или k8s.
+Но autoscale как пример лежит в папке examples, доставку на хосты и исполнение я бы использовал ansible
 
-### Install dependencies
+2.4 Load Testing
+Надо больше времени, нет экспертизы нагрузочном тестировании - незнание инструментов Apache JMeter or Locust
 
-```
-pip install -r api/requirements.txt
-```
 
-### Set up and run everything using docker-compose
+### Запуск 
 
 ```
 docker-compose up
 ```
-
-### Access
-
-* API: http://localhost:5000/flask-prometheus-grafana-example/
-* Prometheus: http://localhost:9090/
-* Grafana: http://localhost:3000 `[username: admin, password: pass@123]`
