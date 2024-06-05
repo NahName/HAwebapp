@@ -1,3 +1,5 @@
+От Грицевич Ивана.
+
 ## Не решенные задачи
 
 2.3 Automatic Recovery and Scaling
